@@ -1,0 +1,33 @@
+.contact {
+  border: 1px solid #ccc;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background-color: #fff;
+  transition: box-shadow 0.3s ease;
+}
+
+.contact:hover {
+  box-shadow: 0 0 8px rgba(0,123,255,0.3);
+}
+
+.contact p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+button {
+  background-color: #dc3545;
+  padding: 6px 10px;
+  font-size: 14px;
+  margin-top: 10px;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #a71d2a;
+}
